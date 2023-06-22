@@ -13,7 +13,5 @@ function showClock(){
    min.style.transform = `rotate(${6*m}deg)`
    sec.style.transform = `rotate(${6*s}deg)`
 
-   let music = new Audio('today.mp3');
-   music.play();
 }
 setInterval(showClock ,1000)
